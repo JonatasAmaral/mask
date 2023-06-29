@@ -209,7 +209,6 @@ class Mask {
 	 * @param {InputEvent} event
 	 * */
 	handleEvent(event) {
-		console.log(event)
 		/* istanbul ignore next */
 		if (!this.opts.triggerOnDelete && (event.inputType === 'deleteContentBackward' || event.inputType === 'deleteContentForward')) {
 			return false
